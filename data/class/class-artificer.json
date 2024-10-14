@@ -46,7 +46,7 @@
 			],
 			"optionalfeatureProgression": [
 				{
-					"name": "Infusions",
+					"name": "Infusões",
 					"featureType": [
 						"AI"
 					],
@@ -76,21 +76,21 @@
 			],
 			"startingProficiencies": {
 				"armor": [
-					"light",
-					"medium",
-					"shield"
+					"leve",
+					"média",
+					"escudo"
 				],
 				"weapons": [
-					"simple",
+					"simples",
 					{
-						"proficiency": "firearms",
+						"proficiency": "armas de fogo",
 						"optional": true
 					}
 				],
 				"tools": [
 					"{@item thieves' tools|PHB}",
 					"{@item tinker's tools|PHB}",
-					"one type of {@item artisan's tools|PHB} of your choice"
+					"Um tipo de {@item artisan's tools|PHB} de sua escolha"
 				],
 				"toolProficiencies": [
 					{
@@ -103,13 +103,13 @@
 					{
 						"choose": {
 							"from": [
-								"arcana",
-								"history",
-								"investigation",
-								"medicine",
-								"nature",
-								"perception",
-								"sleight of hand"
+								"arcanismo",
+								"história",
+								"investigação",
+								"medicina",
+								"natureza",
+								"percepção",
+								"prestidigitação"
 							],
 							"count": 2
 						}
@@ -119,24 +119,24 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"any two {@filter simple weapons|items|source=phb|category=basic|type=simple weapon} of your choice",
-					"a {@item light crossbow|phb} and {@item crossbow bolts (20)|phb|20 bolts}",
-					"(a) {@item studded leather armor|phb} or (b) {@item scale mail|phb}",
-					"{@item thieves' tools|phb} and a {@item dungeoneer's pack|phb}"
+					"Duas {@filter simples weapons|items|source=phb|category=basic|type=simples weapon} de sua escolha",
+					"um {@item leve crossbow|phb} e {@item crossbow bolts (20)|phb|20 bolts}",
+					"(a) {@item studded leather armor|phb} ou (b) {@item scale mail|phb}",
+					"{@item thieves' tools|phb} e um {@item dungeoneer's pack|phb}"
 				],
 				"goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Starting Gold}",
 				"defaultData": [
 					{
 						"_": [
 							{
-								"equipmentType": "weaponSimple",
+								"equipmentType": "weaponsimples",
 								"quantity": 2
 							}
 						]
 					},
 					{
 						"_": [
-							"light crossbow|phb",
+							"leve crossbow|phb",
 							"crossbow bolts (20)|phb"
 						]
 					},
@@ -162,9 +162,9 @@
 				},
 				"proficienciesGained": {
 					"armor": [
-						"light",
-						"medium",
-						"shield"
+						"leve",
+						"média",
+						"escudo"
 					],
 					"tools": [
 						"{@item thieves' tools|PHB}",
@@ -181,7 +181,7 @@
 			"classTableGroups": [
 				{
 					"colLabels": [
-						"{@filter Infusions Known|optionalfeatures|feature type=ai|source=TCE}",
+						"{@filter Infusões Known|optionalfeatures|feature type=ai|source=TCE}",
 						"Infused Items",
 						"{@filter Cantrips Known|spells|level=0|class=artificer}"
 					],
@@ -289,7 +289,7 @@
 					]
 				},
 				{
-					"title": "Spell Slots per Spell Level",
+					"title": "Spell Slots per Spell level",
 					"colLabels": [
 						"{@filter 1st|spells|level=1|class=Artificer}",
 						"{@filter 2nd|spells|level=2|class=Artificer}",
@@ -483,8 +483,8 @@
 	],
 	"subclass": [
 		{
-			"name": "Alchemist",
-			"shortName": "Alchemist",
+			"name": "Alquimista",
+			"shortName": "Alquimista",
 			"source": "TCE",
 			"className": "Artificer",
 			"classSource": "TCE",
@@ -512,7 +512,7 @@
 							"mass healing word"
 						],
 						"13": [
-							"blight",
+							"bleve",
 							"death ward"
 						],
 						"17": [
@@ -523,10 +523,10 @@
 				}
 			],
 			"subclassFeatures": [
-				"Alchemist|Artificer|TCE|Alchemist|TCE|3",
-				"Alchemical Savant|Artificer|TCE|Alchemist|TCE|5",
-				"Restorative Reagents|Artificer|TCE|Alchemist|TCE|9",
-				"Chemical Mastery|Artificer|TCE|Alchemist|TCE|15"
+				"Alquimista|Artificer|TCE|Alquimista|TCE|3",
+				"Alchemical Savant|Artificer|TCE|Alquimista|TCE|5",
+				"Restorative Reagents|Artificer|TCE|Alquimista|TCE|9",
+				"Chemical Mastery|Artificer|TCE|Alquimista|TCE|15"
 			],
 			"hasFluffImages": true
 		},
@@ -551,7 +551,7 @@
 						],
 						"9": [
 							"hypnotic pattern",
-							"lightning bolt"
+							"levening bolt"
 						],
 						"13": [
 							"fire shield",
@@ -685,22 +685,22 @@
 			"level": 1,
 			"entries": [
 				"{@i 1st-level artificer feature}",
-				"You've learned how to invest a spark of magic into mundane objects. To use this ability, you must have {@item thieves' tools|PHB} or {@item artisan's tools|PHB} in hand. You then touch a Tiny nonmagical object as an action and give it one of the following magical properties of your choice:",
+				"Você aprendeu a imbuir sua magia a objetos mundanos. Para utilizar essa habilidade, você precisa ter {@item thieves' tools|PHB} ou {@item artisan's tools|PHB} em mãos. Então você toca o pequeno objeto mundano e como uma ação ele recebe uma das propriedades listadas a seguir à sua escolha:",
 				{
 					"type": "list",
 					"items": [
-						"The object sheds bright light in a 5-foot radius and dim light for an additional 5 feet.",
-						"Whenever tapped by a creature, the object emits a recorded message that can be heard up to 10 feet away. You utter the message when you bestow this property on the object, and the recording can be no more than 6 seconds long.",
-						"The object continuously emits your choice of an odor or a nonverbal sound (wind, waves, chirping, or the like). The chosen phenomenon is perceivable up to 10 feet away.",
-						"A static visual effect appears on one of the object's surfaces. This effect can be a picture, up to 25 words of text, lines and shapes, or a mixture of these elements, as you like."
+						"O objeto emite luz brilhante em um raio de 1,5 metro e luz fraca por mais 1,5 metro adicional.",
+						"Sempre que tocado por uma criatura, o objeto emite uma mensagem gravada que pode ser ouvida a até 3 metros de distância. Você emite a mensagem quando concede esta propriedade ao objeto, e a gravação não pode durar mais do que 6 segundos.",
+						"O objeto emite continuamente um odor ou som não-verbal de sua escolha (vento, ondas, chilrear ou algo semelhante). O fenômeno escolhido é perceptível a até 3 metros de distância.",
+						"Um efeito visual estático aparece em uma das superfícies do objeto. Este efeito pode ser uma imagem, até 25 palavras de texto, linhas e formas, ou uma mistura desses elementos, conforme desejar."
 					]
 				},
-				"The chosen property lasts indefinitely. As an action, you can touch the object and end the property early.",
-				"You can bestow magic on multiple objects, touching one object each time you use this feature, though a single object can only bear one property at a time. The maximum number of objects you can affect with this feature at one time is equal to your Intelligence modifier (minimum of one object). If you try to exceed your maximum, the oldest property immediately ends, and then the new property applies."
+				"A magia imbuída tem duração indeterminada. Como uma ação, você pode tocar o objeto e encerrar a propriedade mais cedo.",
+				"Você pode conceder magia a vários objetos, tocando um objeto cada vez que usar esse recurso, embora um único objeto possa conter apenas uma propriedade por vez. O número máximo de objetos que você pode afetar com este recurso ao mesmo tempo é igual ao seu modificador de Inteligência (mínimo de um objeto). Se você tentar exceder o máximo, a propriedade mais antiga será encerrada imediatamente e a nova propriedade será aplicada."
 			]
 		},
 		{
-			"name": "Optional Rule: Firearm Proficiency",
+			"name": "Regra opcional: Proeficiência com armas de fogo",
 			"source": "TCE",
 			"page": 9,
 			"otherSources": [
@@ -713,7 +713,7 @@
 			"classSource": "TCE",
 			"level": 1,
 			"entries": [
-				"The secrets of creating and operating gunpowder weapons have been discovered in various corners of the D&D multiverse. If your Dungeon Master uses the rules on firearms in {@book chapter 9|DMG|9|Firearms} of the {@book Dungeon Master's Guide|DMG} and your artificer has been exposed to the operation of such weapons, your artificer is proficient with them."
+				"Os segredos da criação e operação de armas com pólvora foram descobertos em vários cantos do multiverso de D&D. Se o seu Dungeon Master usa as regras sobre armas de fogo em {@book Chapter 9|DMG|9|firearm} do {@book Dungeon Master's Guide|DMG} e seu artífice foi exposto à operação de tais armas, seu artífice é proficiente com eles."
 			]
 		},
 		{
@@ -731,13 +731,13 @@
 			"level": 1,
 			"entries": [
 				"{@i 1st-level artificer feature}",
-				"You've studied the workings of magic and how to cast spells, channeling the magic through objects. To observers, you don't appear to be casting spells in a conventional way; you appear to produce wonders from mundane items and outlandish inventions.",
+				"Você estudou o funcionamento da magia e como lançar feitiços, canalizando a magia através de objetos. Para os observadores, você não parece estar lançando feitiços de maneira convencional; você parece produzir maravilhas a partir de itens mundanos e invenções bizarras.",
 				{
 					"type": "entries",
 					"name": "Tools Required",
 					"entries": [
 						"You produce your artificer spell effects through your tools. You must have a spellcasting focus\u2014specifically {@item thieves' tools|phb} or some kind of {@item artisan's tools|phb|artisan's tool}\u2014in hand when you cast any spell with this Spellcasting feature (meaning the spell has an 'M' component when you cast it). You must be proficient with the tool to use it in this way. See {@book chapter 5|PHB|4}, \"Equipment,\" in the {@book Player's Handbook|PHB} for descriptions of these tools.",
-						"After you gain the Infuse Item feature at 2nd level, you can also use any item bearing one of your infusions as a spellcasting focus.",
+						"After you gain the Infuse Item feature at 2nd level, you can also use any item bearing one of your Infusões as a spellcasting focus.",
 						{
 							"type": "inset",
 							"name": "The Magic of Artifice",
@@ -751,7 +751,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Cantrips (0-Level Spells)",
+					"name": "Cantrips (0-level Spells)",
 					"entries": [
 						"At 1st level, you know two cantrips of your choice from the {@filter artificer spell list|spells|level=0|class=Artificer}. At higher levels, you learn additional artificer cantrips of your choice, as shown in the Cantrips Known column of the Artificer table.",
 						"When you gain a level in this class, you can replace one of the artificer cantrips you know with another cantrip from the artificer spell list."
@@ -812,18 +812,18 @@
 			"level": 2,
 			"entries": [
 				"{@i 2nd-level artificer feature}",
-				"You've gained the ability to imbue mundane items with certain magical infusions, turning those objects into magic items.",
+				"You've gained the ability to imbue mundane items with certain magical Infusões, turning those objects into magic items.",
 				{
 					"type": "refClassFeature",
-					"classFeature": "Infusions Known|Artificer|TCE|2"
+					"classFeature": "Infusões Known|Artificer|TCE|2"
 				},
 				{
 					"type": "inset",
-					"name": "Artificer Infusions",
+					"name": "Artificer Infusões",
 					"entries": [
-						"Artificers have invented numerous magical infusions, extraordinary processes that rapidly create magic items. To many, artificers seem like wonderworkers, accomplishing in hours what others need weeks to complete.",
-						"The description of each of the following infusions details the type of item that can receive it, along with whether the resulting magic item requires attunement.",
-						"Some infusions specify a minimum artificer level. You can't learn such an infusion until you are at least that level.",
+						"Artificers have invented numerous magical Infusões, extraordinary processes that rapidly create magic items. To many, artificers seem like wonderworkers, accomplishing in hours what others need weeks to complete.",
+						"The description of each of the following Infusões details the type of item that can receive it, along with whether the resulting magic item requires attunement.",
+						"Some Infusões specify a minimum artificer level. You can't learn such an infusion until you are at least that level.",
 						"Unless an infusion's description says otherwise, you can't learn an infusion more than once."
 					]
 				},
@@ -831,16 +831,16 @@
 					"type": "entries",
 					"name": "Infusing an Item",
 					"entries": [
-						"Whenever you finish a long rest, you can touch a nonmagical object and imbue it with one of your artificer infusions, turning it into a magic item. An infusion works on only certain kinds of objects, as specified in the infusion's description. If the item requires attunement, you can attune yourself to it the instant you infuse the item. If you decide to attune to the item later, you must do so using the normal process for attunement (see \"{@book Attunement|DMG|7|Attunement}\" in chapter 7 of the {@book Dungeon Master's Guide|DMG}).",
+						"Whenever you finish a long rest, you can touch a nonmagical object and imbue it with one of your artificer Infusões, turning it into a magic item. An infusion works on only certain kinds of objects, as specified in the infusion's description. If the item requires attunement, you can attune yourself to it the instant you infuse the item. If you decide to attune to the item later, you must do so using the normal process for attunement (see \"{@book Attunement|DMG|7|Attunement}\" in chapter 7 of the {@book Dungeon Master's Guide|DMG}).",
 						"Your infusion remains in an item indefinitely, but when you die, the infusion vanishes after a number of days have passed equal to your Intelligence modifier (minimum of 1 day). The infusion also vanishes if you give up your knowledge of the infusion for another one.",
-						"You can infuse more than one nonmagical object at the end of a long rest; the maximum number of objects appears in the Infused Items column of the Artificer table. You must touch each of the objects, and each of your infusions can be in only one object at a time. Moreover, no object can bear more than one of your infusions at a time. If you try to exceed your maximum number of infusions, the oldest infusion immediately ends, and then the new infusion applies.",
+						"You can infuse more than one nonmagical object at the end of a long rest; the maximum number of objects appears in the Infused Items column of the Artificer table. You must touch each of the objects, and each of your Infusões can be in only one object at a time. Moreover, no object can bear more than one of your Infusões at a time. If you try to exceed your maximum number of Infusões, the oldest infusion immediately ends, and then the new infusion applies.",
 						"If an infusion ends on an item that contains other things, like a {@item bag of holding}, its contents harmlessly appear in and around its space."
 					]
 				}
 			]
 		},
 		{
-			"name": "Infusions Known",
+			"name": "Infusões Known",
 			"source": "TCE",
 			"page": 9,
 			"otherSources": [
@@ -854,8 +854,8 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"When you gain this feature, pick four artificer infusions to learn, choosing from the \"{@filter Artificer Infusions|optionalfeatures|feature type=ai|source=TCE}\" section at the end of the class's description. You learn additional infusions of your choice when you reach certain levels in this class, as shown in the Infusions Known column of the Artificer table.",
-				"Whenever you gain a level in this class, you can replace one of the artificer infusions you learned with a new one."
+				"When you gain this feature, pick four artificer Infusões to learn, choosing from the \"{@filter Artificer Infusões|optionalfeatures|feature type=ai|source=TCE}\" section at the end of the class's description. You learn additional Infusões of your choice when you reach certain levels in this class, as shown in the Infusões Known column of the Artificer table.",
+				"Whenever you gain a level in this class, you can replace one of the artificer Infusões you learned with a new one."
 			]
 		},
 		{
@@ -1045,7 +1045,7 @@
 			"level": 11,
 			"entries": [
 				"{@i 11th-level artificer feature}",
-				"You can now store a spell in an object. Whenever you finish a long rest, you can touch one {@filter simple or martial weapon|items|source=phb|category=basic|type=martial weapon;simple weapon} or one item that you can use as a spellcasting focus, and you store a spell in it, choosing a 1st- or 2nd-level spell from the {@filter artificer spell list|spells|class=Artificer|cast time=action|level=1;2} that requires 1 action to cast (you needn't have it prepared).",
+				"You can now store a spell in an object. Whenever you finish a long rest, you can touch one {@filter simples or martial weapon|items|source=phb|category=basic|type=martial weapon;simples weapon} or one item that you can use as a spellcasting focus, and you store a spell in it, choosing a 1st- or 2nd-level spell from the {@filter artificer spell list|spells|class=Artificer|cast time=action|level=1;2} that requires 1 action to cast (you needn't have it prepared).",
 				"While holding the object, a creature can take an action to produce the spell's effect from it, using your spellcasting ability modifier. If the spell requires {@status concentration}, the creature must concentrate. The spell stays in the object until it's been used a number of times equal to twice your Intelligence modifier (minimum of twice) or until you use this feature again to store a spell in an object."
 			]
 		},
@@ -1187,7 +1187,7 @@
 					"type": "list",
 					"items": [
 						"You gain a +1 bonus to all saving throws per magic item you are currently attuned to.",
-						"If you're reduced to 0 hit points but not killed outright, you can use your reaction to end one of your artificer infusions, causing you to drop to 1 hit point instead of 0."
+						"If you're reduced to 0 hit points but not killed outright, you can use your reaction to end one of your artificer Infusões, causing you to drop to 1 hit point instead of 0."
 					]
 				}
 			]
@@ -1195,7 +1195,7 @@
 	],
 	"subclassFeature": [
 		{
-			"name": "Alchemist",
+			"name": "Alquimista",
 			"source": "TCE",
 			"page": 14,
 			"otherSources": [
@@ -1206,27 +1206,27 @@
 			],
 			"className": "Artificer",
 			"classSource": "TCE",
-			"subclassShortName": "Alchemist",
+			"subclassShortName": "Alquimista",
 			"subclassSource": "TCE",
 			"level": 3,
 			"entries": [
-				"An Alchemist is an expert at combining reagents to produce mystical effects. Alchemists use their creations to give life and to leech it away. Alchemy is the oldest of artificer traditions, and its versatility has long been valued during times of war and peace.",
+				"An Alquimista is an expert at combining reagents to produce mystical effects. Alchemists use their creations to give life and to leech it away. Alchemy is the oldest of artificer traditions, and its versatility has long been valued during times of war and peace.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tool Proficiency|Artificer|TCE|Alchemist|TCE|3"
+					"subclassFeature": "Tool Proficiency|Artificer|TCE|Alquimista|TCE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Alchemist Spells|Artificer|TCE|Alchemist|TCE|3"
+					"subclassFeature": "Alquimista Spells|Artificer|TCE|Alquimista|TCE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Experimental Elixir|Artificer|TCE|Alchemist|TCE|3"
+					"subclassFeature": "Experimental Elixir|Artificer|TCE|Alquimista|TCE|3"
 				}
 			]
 		},
 		{
-			"name": "Alchemist Spells",
+			"name": "Alquimista Spells",
 			"source": "TCE",
 			"page": 14,
 			"otherSources": [
@@ -1237,17 +1237,17 @@
 			],
 			"className": "Artificer",
 			"classSource": "TCE",
-			"subclassShortName": "Alchemist",
+			"subclassShortName": "Alquimista",
 			"subclassSource": "TCE",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Alchemist Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.",
+				"Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Alquimista Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.",
 				{
 					"type": "table",
-					"caption": "Alchemist Spells",
+					"caption": "Alquimista Spells",
 					"colLabels": [
-						"Artificer Level",
+						"Artificer level",
 						"Spell"
 					],
 					"colStyles": [
@@ -1269,7 +1269,7 @@
 						],
 						[
 							"13th",
-							"{@spell blight}, {@spell death ward}"
+							"{@spell bleve}, {@spell death ward}"
 						],
 						[
 							"17th",
@@ -1291,7 +1291,7 @@
 			],
 			"className": "Artificer",
 			"classSource": "TCE",
-			"subclassShortName": "Alchemist",
+			"subclassShortName": "Alquimista",
 			"subclassSource": "TCE",
 			"level": 3,
 			"header": 1,
@@ -1330,7 +1330,7 @@
 						],
 						[
 							"5",
-							"{@b Flight}. The drinker gains a flying speed of 10 feet for 10 minutes."
+							"{@b Fleve}. The drinker gains a flying speed of 10 feet for 10 minutes."
 						],
 						[
 							"6",
@@ -1352,7 +1352,7 @@
 			],
 			"className": "Artificer",
 			"classSource": "TCE",
-			"subclassShortName": "Alchemist",
+			"subclassShortName": "Alquimista",
 			"subclassSource": "TCE",
 			"level": 3,
 			"header": 1,
@@ -1372,7 +1372,7 @@
 			],
 			"className": "Artificer",
 			"classSource": "TCE",
-			"subclassShortName": "Alchemist",
+			"subclassShortName": "Alquimista",
 			"subclassSource": "TCE",
 			"level": 5,
 			"header": 2,
@@ -1392,7 +1392,7 @@
 			],
 			"className": "Artificer",
 			"classSource": "TCE",
-			"subclassShortName": "Alchemist",
+			"subclassShortName": "Alquimista",
 			"subclassSource": "TCE",
 			"level": 9,
 			"header": 2,
@@ -1419,7 +1419,7 @@
 			],
 			"className": "Artificer",
 			"classSource": "TCE",
-			"subclassShortName": "Alchemist",
+			"subclassShortName": "Alquimista",
 			"subclassSource": "TCE",
 			"level": 15,
 			"header": 2,
@@ -1492,7 +1492,7 @@
 			]
 		},
 		{
-			"name": "Lightning Launcher",
+			"name": "levening Launcher",
 			"source": "TCE",
 			"page": 15,
 			"className": "Artificer",
@@ -1502,7 +1502,7 @@
 			"level": 3,
 			"type": "item",
 			"entries": [
-				"A gemlike node appears on one of your armored fists or on the chest (your choice). It counts as a simple ranged weapon, with a normal range of 90 feet and a long range of 300 feet, and it deals {@damage 1d6} lightning damage on a hit. Once on each of your turns when you hit a creature with it, you can deal an extra {@damage 1d6} lightning damage to that target."
+				"A gemlike node appears on one of your armored fists or on the chest (your choice). It counts as a simples ranged weapon, with a normal range of 90 feet and a long range of 300 feet, and it deals {@damage 1d6} levening damage on a hit. Once on each of your turns when you hit a creature with it, you can deal an extra {@damage 1d6} levening damage to that target."
 			]
 		},
 		{
@@ -1530,7 +1530,7 @@
 			"level": 3,
 			"type": "item",
 			"entries": [
-				"Each of the armor's gauntlets counts as a simple melee weapon while you aren't holding anything in it, and it deals {@damage 1d8} thunder damage on a hit. A creature hit by the gauntlet has disadvantage on attack rolls against targets other than you until the start of your next turn, as the armor magically emits a distracting pulse when the creature attacks someone else."
+				"Each of the armor's gauntlets counts as a simples melee weapon while you aren't holding anything in it, and it deals {@damage 1d8} thunder damage on a hit. A creature hit by the gauntlet has disadvantage on attack rolls against targets other than you until the start of your next turn, as the armor magically emits a distracting pulse when the creature attacks someone else."
 			]
 		},
 		{
@@ -1608,7 +1608,7 @@
 									"items": [
 										{
 											"type": "refSubclassFeature",
-											"subclassFeature": "Lightning Launcher|Artificer|TCE|Armorer|TCE|3"
+											"subclassFeature": "levening Launcher|Artificer|TCE|Armorer|TCE|3"
 										},
 										{
 											"type": "refSubclassFeature",
@@ -1643,7 +1643,7 @@
 					"type": "table",
 					"caption": "Armorer Spells",
 					"colLabels": [
-						"Artificer Level",
+						"Artificer level",
 						"Spell"
 					],
 					"colStyles": [
@@ -1661,11 +1661,11 @@
 						],
 						[
 							"9th",
-							"{@spell hypnotic pattern}, {@spell lightning bolt}"
+							"{@spell hypnotic pattern}, {@spell levening bolt}"
 						],
 						[
 							"13th",
-							"{@spell fire shield}, {@spell greater invisibility}"
+							"{@spell fire escudo}, {@spell greater invisibility}"
 						],
 						[
 							"17th",
@@ -1717,7 +1717,7 @@
 			"header": 2,
 			"entries": [
 				"{@i 9th-level Armorer feature}",
-				"You learn how to use your artificer infusions to specially modify your Arcane Armor. That armor now counts as separate items for the purposes of your Infuse Items feature: armor (the chest piece), boots, helmet, and the armor's special weapon. Each of those items can bear one of your infusions, and the infusions transfer over if you change your armor's model with the Armor Model feature. In addition, the maximum number of items you can infuse at once increases by 2, but those extra items must be part of your Arcane Armor."
+				"You learn how to use your artificer Infusões to specially modify your Arcane Armor. That armor now counts as separate items for the purposes of your Infuse Items feature: armor (the chest piece), boots, helmet, and the armor's special weapon. Each of those items can bear one of your Infusões, and the Infusões transfer over if you change your armor's model with the Armor Model feature. In addition, the maximum number of items you can infuse at once increases by 2, but those extra items must be part of your Arcane Armor."
 			]
 		},
 		{
@@ -1745,7 +1745,7 @@
 					"type": "entries",
 					"name": "Infiltrator",
 					"entries": [
-						"Any creature that takes lightning damage from your Lightning Launcher glimmers with magical light until the start of your next turn. The glimmering creature sheds dim light in a 5-foot radius, and it has disadvantage on attack rolls against you, as the light jolts it if it attacks you. In addition, the next attack roll against it has advantage, and if that attack hits, the target takes an extra {@damage 1d6} lightning damage."
+						"Any creature that takes levening damage from your levening Launcher glimmers with magical leve until the start of your next turn. The glimmering creature sheds dim leve in a 5-foot radius, and it has disadvantage on attack rolls against you, as the leve jolts it if it attacks you. In addition, the next attack roll against it has advantage, and if that attack hits, the target takes an extra {@damage 1d6} levening damage."
 					]
 				}
 			]
@@ -1804,7 +1804,7 @@
 					"type": "table",
 					"caption": "Artillerist Spells",
 					"colLabels": [
-						"Artificer Level",
+						"Artificer level",
 						"Spell"
 					],
 					"colStyles": [
@@ -1814,7 +1814,7 @@
 					"rows": [
 						[
 							"3rd",
-							"{@spell shield}, {@spell thunderwave}"
+							"{@spell escudo}, {@spell thunderwave}"
 						],
 						[
 							"5th",
@@ -2065,7 +2065,7 @@
 					"type": "table",
 					"caption": "Battle Smith Spells",
 					"colLabels": [
-						"Artificer Level",
+						"Artificer level",
 						"Spell"
 					],
 					"colStyles": [
@@ -2075,7 +2075,7 @@
 					"rows": [
 						[
 							"3rd",
-							"{@spell heroism}, {@spell shield}"
+							"{@spell heroism}, {@spell escudo}"
 						],
 						[
 							"5th",
@@ -2087,7 +2087,7 @@
 						],
 						[
 							"13th",
-							"{@spell aura of purity}, {@spell fire shield}"
+							"{@spell aura of purity}, {@spell fire escudo}"
 						],
 						[
 							"17th",
