@@ -119,8 +119,8 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"Duas {@filter simples weapons|items|source=phb|category=basic|type=simples weapon} de sua escolha",
-					"um {@item leve crossbow|phb} e {@item crossbow bolts (20)|phb|20 bolts}",
+					"Duas {@filter armas simples|items|source=phb|category=basic|type=simple weapon} de sua escolha",
+					"um {@item crossbow leve |phb} e {@item crossbow bolts (20)|phb|20 bolts}",
 					"(a) {@item studded leather armor|phb} ou (b) {@item scale mail|phb}",
 					"{@item thieves' tools|phb} e um {@item dungeoneer's pack|phb}"
 				],
@@ -129,14 +129,14 @@
 					{
 						"_": [
 							{
-								"equipmentType": "weaponsimples",
+								"equipmentType": "weaponsimple",
 								"quantity": 2
 							}
 						]
 					},
 					{
 						"_": [
-							"leve crossbow|phb",
+							"light crossbow|phb",
 							"crossbow bolts (20)|phb"
 						]
 					},
@@ -181,9 +181,9 @@
 			"classTableGroups": [
 				{
 					"colLabels": [
-						"{@filter Infusões Known|optionalfeatures|feature type=ai|source=TCE}",
-						"Infused Items",
-						"{@filter Cantrips Known|spells|level=0|class=artificer}"
+						"{@filter Infusões conhecidas|optionalfeatures|feature type=ai|source=TCE}",
+						"Itens Infundidos",
+						"{@filter Truques conhecidos|spells|level=0|class=artificer}"
 					],
 					"rows": [
 						[
@@ -442,7 +442,7 @@
 				}
 			],
 			"classFeatures": [
-				"Optional Rule: Firearm Proficiency|Artificer|TCE|1",
+				"Optional Rule: Firearms Proficiency|Artificer|TCE|1",
 				"Magical Tinkering|Artificer|TCE|1",
 				"Spellcasting|Artificer|TCE|1",
 				"Infuse Item|Artificer|TCE|2",
@@ -523,10 +523,10 @@
 				}
 			],
 			"subclassFeatures": [
-				"Alquimista|Artificer|TCE|Alquimista|TCE|3",
-				"Alchemical Savant|Artificer|TCE|Alquimista|TCE|5",
-				"Restorative Reagents|Artificer|TCE|Alquimista|TCE|9",
-				"Chemical Mastery|Artificer|TCE|Alquimista|TCE|15"
+				"Alquimista|Artificer|TCE|Alchemist|TCE|3",
+				"Alchemical Savant|Artificer|TCE|Alchemist|TCE|5",
+				"Restorative Reagents|Artificer|TCE|Alchemist|TCE|9",
+				"Chemical Mastery|Artificer|TCE|Alchemist|TCE|15"
 			],
 			"hasFluffImages": true
 		},
@@ -700,7 +700,7 @@
 			]
 		},
 		{
-			"name": "Regra opcional: Proeficiência com armas de fogo",
+			"name": "Optional Rule: Firearm Proficiency|Artificer|TCE|1",
 			"source": "TCE",
 			"page": 9,
 			"otherSources": [
@@ -713,7 +713,7 @@
 			"classSource": "TCE",
 			"level": 1,
 			"entries": [
-				"Os segredos da criação e operação de armas com pólvora foram descobertos em vários cantos do multiverso de D&D. Se o seu Dungeon Master usa as regras sobre armas de fogo em {@book Chapter 9|DMG|9|firearm} do {@book Dungeon Master's Guide|DMG} e seu artífice foi exposto à operação de tais armas, seu artífice é proficiente com eles."
+				"Os segredos da criação e operação de armas com pólvora foram descobertos em vários cantos do multiverso de D&D. Se o seu Dungeon Master usa as regras sobre armas de fogo em {@book Chapter 9|DMG|9|firearms} do {@book Dungeon Master's Guide|DMG} e seu artífice foi exposto à operação de tais armas, seu artífice é proficiente com eles."
 			]
 		},
 		{
@@ -815,7 +815,7 @@
 				"You've gained the ability to imbue mundane items with certain magical Infusões, turning those objects into magic items.",
 				{
 					"type": "refClassFeature",
-					"classFeature": "Infusões Known|Artificer|TCE|2"
+					"classFeature": "Infusões Conhecidas|Artificer|TCE|2"
 				},
 				{
 					"type": "inset",
@@ -1213,15 +1213,15 @@
 				"An Alquimista is an expert at combining reagents to produce mystical effects. Alchemists use their creations to give life and to leech it away. Alchemy is the oldest of artificer traditions, and its versatility has long been valued during times of war and peace.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tool Proficiency|Artificer|TCE|Alquimista|TCE|3"
+					"subclassFeature": "Tool Proficiency|Artificer|TCE|Alchemist|TCE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Alquimista Spells|Artificer|TCE|Alquimista|TCE|3"
+					"subclassFeature": "Magias de Alquimista|Artificer|TCE|Alchemist|TCE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Experimental Elixir|Artificer|TCE|Alquimista|TCE|3"
+					"subclassFeature": "Experimental Elixir|Artificer|TCE|Alchemist|TCE|3"
 				}
 			]
 		},
@@ -1269,7 +1269,7 @@
 						],
 						[
 							"13th",
-							"{@spell bleve}, {@spell death ward}"
+							"{@spell blight}, {@spell death ward}"
 						],
 						[
 							"17th",
@@ -1330,7 +1330,7 @@
 						],
 						[
 							"5",
-							"{@b Fleve}. The drinker gains a flying speed of 10 feet for 10 minutes."
+							"{@b Flight}. The drinker gains a flying speed of 10 feet for 10 minutes."
 						],
 						[
 							"6",
@@ -1661,11 +1661,11 @@
 						],
 						[
 							"9th",
-							"{@spell hypnotic pattern}, {@spell levening bolt}"
+							"{@spell hypnotic pattern}, {@spell lightning bolt}"
 						],
 						[
 							"13th",
-							"{@spell fire escudo}, {@spell greater invisibility}"
+							"{@spell fire shield}, {@spell greater invisibility}"
 						],
 						[
 							"17th",
