@@ -6,7 +6,7 @@
 	},
 	"class": [
 		{
-			"name": "Guerreiro",
+			"name": "Fighter",
 			"source": "PHB",
 			"page": 70,
 			"srd": true,
@@ -499,7 +499,7 @@
 			]
 		},
 		{
-			"name": "Battle Master",
+			"name": "Mestre de Batalha",
 			"shortName": "Battle Master",
 			"source": "PHB",
 			"className": "Fighter",
