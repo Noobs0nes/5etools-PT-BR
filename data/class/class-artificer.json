@@ -442,10 +442,10 @@
 				}
 			],
 			"classFeatures": [
-				"Regra opicional: Proeficiência com Armas de fogo|Artificer|TCE|1",
+				"Optional Rule: Firearm Proficiency|Artificer|TCE|1",
 				"Magical Tinkering|Artificer|TCE|1",
 				"Spellcasting|Artificer|TCE|1",
-				"Infundir Item|Artificer|TCE|2",
+				"Infuse Item|Artificer|TCE|2",
 				{
 					"classFeature": "Artificer Specialist|Artificer|TCE|3",
 					"gainSubclassFeature": true
