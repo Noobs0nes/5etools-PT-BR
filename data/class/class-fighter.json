@@ -499,7 +499,7 @@
 			]
 		},
 		{
-			"name": "Mestre de Batalha",
+			"name": "Battle Master",
 			"shortName": "Battle Master",
 			"source": "PHB",
 			"className": "Fighter",
