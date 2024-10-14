@@ -1898,8 +1898,8 @@
 			"classSource": "PHB",
 			"level": 1,
 			"entries": [
-				"You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to {@dice 1d10} + your fighter level.",
-				"Once you use this feature, you must finish a short or long rest before you can use it again."
+				"Você possui uma reserva de energia e pode usá-la para proteger a si mesmo contra danos. No seu turno, você pode usar uma ação bônus para recuperar pontos de vida igual a {@dice 1d10} + o seu nível de guerreiro.",
+				"Uma vez que use essa característica, você precisa terminar um descanso curto ou longo para usá-la novamente."
 			]
 		},
 		{
