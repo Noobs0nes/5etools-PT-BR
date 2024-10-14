@@ -217,9 +217,9 @@
 							2
 						],
 						[
-							999999,
-							39,
-							20
+							6,
+							3,
+							2
 						],
 						[
 							6,
@@ -685,18 +685,18 @@
 			"level": 1,
 			"entries": [
 				"{@i 1st-level artificer feature}",
-				"You've learned how to invest a spark of magic into mundane objects. To use this ability, you must have {@item thieves' tools|PHB} or {@item artisan's tools|PHB} in hand. You then touch a Tiny nonmagical object as an action and give it one of the following magical properties of your choice:",
+				"Você aprendeu a imbuir magia a pequenos objetos mundanos. Para utilizar essa habilidade, você precisa ter em mãos {@item thieves' tools|PHB} ou {@item artisan's tools|PHB} . Você pode então, encostar em um pequeno objeto não mágico e atribuir a ele um dos efeitos listado a seguir como uma ação padrão:",
 				{
 					"type": "list",
 					"items": [
-						"The object sheds bright light in a 5-foot radius and dim light for an additional 5 feet.",
-						"Whenever tapped by a creature, the object emits a recorded message that can be heard up to 10 feet away. You utter the message when you bestow this property on the object, and the recording can be no more than 6 seconds long.",
-						"The object continuously emits your choice of an odor or a nonverbal sound (wind, waves, chirping, or the like). The chosen phenomenon is perceivable up to 10 feet away.",
-						"A static visual effect appears on one of the object's surfaces. This effect can be a picture, up to 25 words of text, lines and shapes, or a mixture of these elements, as you like."
+						"O objeto emite luz brilhante em um raio de 1,5 metro e penumbra por mais 1,5 metro adicional.",
+						"Sempre que tocado por uma criatura, o objeto emite uma mensagem gravada que pode ser ouvida a até 3 metros de distância. Você emite a mensagem quando concede esta propriedade ao objeto, e a gravação não pode ter mais de 6 segundos de duração.",
+						"O objeto emite continuamente um odor ou som não-verbal de sua escolha (vento, ondas, chilrear ou algo semelhante). O fenômeno escolhido é perceptível a até 3 metros de distância.",
+						"Um efeito visual estático aparece em uma das superfícies do objeto. Este efeito pode ser uma imagem, até 25 palavras de texto, linhas e formas, ou uma mistura desses elementos, conforme desejar."
 					]
 				},
-				"The chosen property lasts indefinitely. As an action, you can touch the object and end the property early.",
-				"You can bestow magic on multiple objects, touching one object each time you use this feature, though a single object can only bear one property at a time. The maximum number of objects you can affect with this feature at one time is equal to your Intelligence modifier (minimum of one object). If you try to exceed your maximum, the oldest property immediately ends, and then the new property applies."
+				"A magia tem duração indeterminada. Como uma ação, você pode tocar no objeto e encerrar a propriedade mais cedo.",
+				"Você pode conceder magia a vários objetos, tocando um objeto cada vez que usar esse recurso, embora um único objeto possa conter apenas uma propriedade por vez. O número máximo de objetos que você pode afetar com este recurso ao mesmo tempo é igual ao seu modificador de Inteligência (mínimo de um objeto). Se você tentar exceder o máximo, a propriedade mais antiga será encerrada imediatamente e a nova propriedade será aplicada."
 			]
 		},
 		{
@@ -713,7 +713,7 @@
 			"classSource": "TCE",
 			"level": 1,
 			"entries": [
-				"The secrets of creating and operating gunpowder weapons have been discovered in various corners of the D&D multiverse. If your Dungeon Master uses the rules on firearms in {@book chapter 9|DMG|9|Firearms} of the {@book Dungeon Master's Guide|DMG} and your artificer has been exposed to the operation of such weapons, your artificer is proficient with them."
+				"Os segredos da criação e operação de armas de pólvora foram descobertos em vários cantos do multiverso de D&D. Se o seu Dungeon Master usa as regras sobre armas de fogo em {@book Chapter 9|DMG|9|Firearms} do {@book Dungeon Master's Guide|DMG} e seu artífice foi exposto à operação de tais armas, seu artífice é proficiente com eles."
 			]
 		},
 		{
