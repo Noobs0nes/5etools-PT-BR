@@ -1835,7 +1835,7 @@
 			"classSource": "PHB",
 			"level": 1,
 			"entries": [
-				"You adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take the same Fighting Style option more than once, even if you get to choose again.",
+				"Você adota um estilo de luta como a sua especialidade. Escolha uma das seguintes opções. Você não pode escolher o mesmo estilo de luta mais de uma vez, mesmo que você possa escolher de novo.",
 				{
 					"type": "options",
 					"count": 1,
