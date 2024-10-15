@@ -1826,7 +1826,7 @@
 	],
 	"classFeature": [
 		{
-			"name": "Estilo de Luta",
+			"name": "Fighting Style",
 			"source": "PHB",
 			"page": 72,
 			"srd": true,
@@ -1912,8 +1912,8 @@
 			"classSource": "PHB",
 			"level": 2,
 			"entries": [
-				"Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action.",
-				"Once you use this feature, you must finish a short or long rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn."
+				"A partir do 2º Nivel, Você pode forçar o seu limite para além do normal por um momento. No seu turno, você pode fazer uma ação adicional.",
+				"Uma vez que use essa característica, você precisa terminar um descanso curto ou longo para usá-la novamente. A partir do 17º Nivel,você pode usá-la duas vezes antes de um descanso, mas uma unica vez no turno."
 			]
 		},
 		{
@@ -1926,7 +1926,7 @@
 			"classSource": "PHB",
 			"level": 3,
 			"entries": [
-				"At 3rd level, you choose an archetype from the list available that you strive to emulate in your combat styles and techniques. The archetype you choose grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level."
+				"no 3º Nível, você escolhe um arquétipo o qual se esforçará para seguir as técnicas e estilos de combate dele. O arquétipo confere a você características especiais no 3º nível e de novo no 7º, 10º, 15º e 18º nível."
 			]
 		},
 		{
